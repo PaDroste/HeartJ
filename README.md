@@ -3,27 +3,21 @@ Package of ImageJ macros for quantification of cardiac histology.
 
 
 ---
-### HeartJ_Gomori
-
-[HeartJ-Gomori_v5](HeartJ_Gomori_v5.ijm)
+### [HeartJ-Gomori_v5](HeartJ_Gomori_v5.ijm)
 
 <strong>Image requirements:</strong> Gomori silver staining for reticulum, standard image formats like BMP, GIF, JPEG, PNG, or TIFF.
 
 This macro measures the size of cardiomyocytes (Group 1) in different parameters on slides stained with Gomori silver staining. The results are reported in an Excel spreadsheet on the desktop, which contains the individual results as well as an average value. An overlay image and color-coded instances will also be created. In addition, the size of the nuclei of the cardiomyocytes (Group 2) and the size of the capillaries (Group 3) are measured. Furthermore, the number of capillaries bordering each cardiomyocyte is measured (capillary contacts).
 
 ---
-### HeartJ_WGA+DAPI+CD31
-
-[HeartJ_FL_WGA+DAPI+CD31_v8](HeartJ_FL_WGA+DAPI+CD31_v8.ijm)
+### [HeartJ_FL_WGA+DAPI+CD31_v8](HeartJ_FL_WGA+DAPI+CD31_v8.ijm)
 
 <strong>Image requirements:</strong> Immunofluorescence staining (WGA (Channel: Green), Nuclei (e.g. DAPI) (Channel: blue), Capillaries (e.g. CD31) (Channel: red)), standard image formats like BMP, GIF, JPEG, PNG, or TIFF.
 
 This macro measures the size of cardiomyocytes (Group 1) in different parameters on slides stained with WGA+CD31+DAPI. The results are reported in an Excel spreadsheet on the desktop, which contains the individual results as well as an average value. An overlay image and color-coded instances will also be created. In addition, the size of the nuclei of the cardiomyocytes (Group 2) and the size of capillaries (Group 3) are measured. Furthermore, the number of capillaries bordering each cardiomyocyte is measured (capillary contacts).
 
 ---
-### HeartJ_WGA+DAPI+intramyo-signal
-
-[HeartJ_FL_WGA+DAPI+intramyo-signal_v2](HeartJ_FL_WGA+DAPI+intramyo-signal_v2.ijm)
+### [HeartJ_FL_WGA+DAPI+intramyo-signal_v2](HeartJ_FL_WGA+DAPI+intramyo-signal_v2.ijm)
 
 <strong>Image requirements:</strong> Immunofluorescence staining (WGA (Channel: Green), Nuclei (e.g. DAPI) (Channel: blue), intramyozyte or/and intramyocyte-nuclei signal (e.g. pro-ANP) (Channel: red)), standard image formats like BMP, GIF, JPEG, PNG, or TIFF.
 
@@ -50,4 +44,4 @@ This macro measures the size of cardiomyocytes (Group 1) in different parameters
 
 <li> Required plugins: MorphoLibJ_-1.4.0, Read and Write Excel </li>
 
-<li> Depending on the resolution of the images, enter the appropriate scale in the macro (1µm = _ Pixel) </li>
+<li> Depending on the resolution of the images, enter the appropriate scale in the macrotext (1µm = _ Pixel) </li>
