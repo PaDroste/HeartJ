@@ -5,7 +5,7 @@ Package of ImageJ macros for quantification of cardiac histology.
 ---
 ### HeartJ_Gomori
 
-* [HeartJ-Gomori.txt](HeartJ_Gomori_v5.txt)
+* [HeartJ-Gomori_v5.ijm](HeartJ_Gomori_v5.ijm)
 
 <strong>Image requirements:</strong> Gomori silver staining for reticulum, standard image formats like BMP, GIF, JPEG, PNG, or TIFF.
 
