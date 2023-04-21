@@ -6,6 +6,7 @@ Package of ImageJ macros for quantification of cardiac histology.
 ### [HeartJ-Gomori_v5](HeartJ_Gomori_v5.ijm)
 
 <strong>Image requirements:</strong> Gomori silver staining for reticulum, standard image formats like BMP, GIF, JPEG, PNG, or TIFF.
+![Gomori_example](https://user-images.githubusercontent.com/130567449/233647152-4e3a599f-1a0a-4bcc-bcb8-1605de9c1a6b.JPEG)
 
 This macro measures the size of cardiomyocytes (Group 1) in different parameters on slides stained with Gomori silver staining. The results are reported in an Excel spreadsheet on the desktop, which contains the individual results as well as an average value. An overlay image and color-coded instances will also be created. In addition, the size of the nuclei of the cardiomyocytes (Group 2) and the size of the capillaries (Group 3) are measured. Furthermore, the number of capillaries bordering each cardiomyocyte is measured (capillary contacts).
 
