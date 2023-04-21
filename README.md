@@ -45,3 +45,5 @@ This macro measures the size of cardiomyocytes (Group 1) in different parameters
 <li> Required plugins: MorphoLibJ_-1.4.0, Read and Write Excel </li>
 
 <li> Depending on the resolution of the images, enter the appropriate scale in the macrotext (1µm = _ Pixel) </li>
+
+---
