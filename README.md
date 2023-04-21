@@ -1,7 +1,6 @@
 # HeartJ
 Package of ImageJ macros for quantification of cardiac histology.
 
-Required plugins: MorphoLibJ_-1.4.0, Read and Write Excel
 
 ---
 ### HeartJ_Gomori
@@ -32,15 +31,23 @@ This macro measures the size of cardiomyocytes (Group 1) in different parameters
 
 ---
 ### General procedure for HeartJ
+<ol>
+<li>Open the image to be analyzed in ImageJ</li>
 
-1. Open the image to be analyzed in ImageJ
+<li>Start the Macro (also possible through shortcut "q")</li>
 
-2. Start the Macro (also possible through shortcut "q")
+<li>Find a suitable tolerance. (See instructions of the Pop-up window)</li>
 
-3. Find a suitable tolerance. (See instructions of the Pop-up window)
+<li>Complete missing lines of segmentation, if necessary. Use "Freehand line" and add them to the roi manager. (See instructions of the Pop-up window)</li>
 
-4. Complete missing lines of segmentation, if necessary. Use "Freehand line" and add them to the roi manager. (See instructions of the Pop-up window)
+<li>Summarized results and individual results are plotted in an Excel spreadsheet on the desktop. In addition, an overlay image with color-coded instances is created.</li>
 
-5. Summarized results and individual results are plotted in an Excel spreadsheet on the desktop. In addition, an overlay image with color-coded instances is created.
+<li>If necessary, with the table and the overlayer image, incorrectly segmented instances can be excluded. Further calculation and analysis can then be done individually in the excel sheet.</li>
+</ol>
 
-6. If necessary, with the table and the overlayer image, incorrectly segmented instances can be excluded. Further calculation and analysis can then be done individually in the excel sheet.
+---
+### Requirements
+
+<li> Required plugins: MorphoLibJ_-1.4.0, Read and Write Excel </li>
+
+<li> Depending on the resolution of the images, enter the appropriate scale in the macro (1µm = _ Pixel) </li>
