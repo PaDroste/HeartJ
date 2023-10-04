@@ -45,7 +45,7 @@ This macro measures the size of cardiomyocytes (Group 1) in different parameters
 <li>If necessary, with the table and the overlayer image, incorrectly segmented instances can be excluded. Further calculation and analysis can then be done individually in the excel sheet.</li>
 </ol>
 
-For more information: [Instructions_HeartJ.PDF](Instructions_HeartJ.PDF)
+For more information: [HeartJ_Instructions.PDF](HeartJ_Instructions.PDF)
 
 ---
 ### Requirements
